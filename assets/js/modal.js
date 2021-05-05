@@ -8,3 +8,7 @@ $('#myModalChair').on('shown.bs.modal', function () {
 $('#myModalCouch').on('shown.bs.modal', function () {
   $('#myInputcouch').trigger('focus')
 })
+
+$('#myModalBed').on('shown.bs.modal', function () {
+  $('#myInputcouch').trigger('focus')
+})
