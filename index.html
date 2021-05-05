@@ -27,16 +27,38 @@
     </nav>
 <!-- Modal CAR-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content ">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Automobile</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Automobile: Kompletan enterijer</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         
+	<div class="row" style="height:90%">
+	  <div class="column" style="width:50%;font-size:14px;">
+	    <ul class="list-group list-group-flush">
+	      <ul class="list-group-item">Manja vozila (smart)</ul>
+	      <ul class="list-group-item">Srednja vozila (golf...)</ul>
+	      <ul class="list-group-item">Veca vozila (limuzine)</ul>
+	      <ul class="list-group-item">SUV</ul>
+	      <ul class="list-group-item">Odredjena mesta</ul>
+	    </ul>
+	  </div>
+
+	  <div class="column" style="width:50%;font-size:14px">
+	    <ul class="list-group list-group-flush d-flex flex-column justify-content-evenly">
+	      <ul class="list-group-item">2400RSD</ul>
+	      <ul class="list-group-item">3000RSD</ul>
+	      <ul class="list-group-item">3600RSD</ul>
+	      <ul class="list-group-item">4000RSD</ul>
+	      <ul class="list-group-item">500-1500RSD</ul>
+	    </ul>
+	  </div>
+	</div>
+	</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
@@ -47,16 +69,34 @@
 
 <!-- Modal Chair-->
 <div class="modal fade" id="exampleModalChair" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content ">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Stolice</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Tepihe</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         
+	<div class="row" style="height:90%">
+	  <div class="column" style="width:50%;font-size:14px;">
+	    <ul class="list-group list-group-flush">
+	      <ul class="list-group-item">Mali</ul>
+	      <ul class="list-group-item">Srednji</ul>
+	      <ul class="list-group-item">Veliki</ul>
+	    </ul>
+	  </div>
+
+	  <div class="column" style="width:50%;font-size:14px">
+	    <ul class="list-group list-group-flush">
+	      <ul class="list-group-item">200RSD</ul>
+	      <ul class="list-group-item">400RSD</ul>
+	      <ul class="list-group-item">600RSD</ul>
+	    </ul>
+	  </div>
+	</div>
+	</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
@@ -68,7 +108,7 @@
 
 <!-- Modal Couch-->
 <div class="modal fade" id="exampleModalCouch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Garniture</h5>
@@ -77,7 +117,30 @@
         </button>
       </div>
       <div class="modal-body">
-        
+	<div class="row" style="height:90%">
+	  <div class="column" style="width:50%;font-size:14px;">
+	    <ul class="list-group list-group-flush">
+	      <ul class="list-group-item">Ugaona garnitura</ul>
+	      <ul class="list-group-item">Tabure</ul>
+	      <ul class="list-group-item">Trosed</ul>
+	      <ul class="list-group-item">Dvosed</ul>
+	      <ul class="list-group-item">Fotelja</ul>
+	      <ul class="list-group-item">Stolica</ul>
+	    </ul>
+	  </div>
+
+	  <div class="column" style="width:50%;font-size:14px">
+	    <ul class="list-group list-group-flush">
+	      <ul class="list-group-item">300RSD/mesto</ul>
+	      <ul class="list-group-item">200RSD</ul>
+	      <ul class="list-group-item">1000-1200RSD</ul>
+	      <ul class="list-group-item">700-900RSD</ul>
+	      <ul class="list-group-item">600RSD</ul>
+	      <ul class="list-group-item">200-300RSD</ul>
+	    </ul>
+	  </div>
+	</div>
+	</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
@@ -127,10 +190,10 @@
                     <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
                       <div class="d-flex features-icons-icon">
 			<button type="button" class="btn btn-primary-outline" data-toggle="modal" data-target="#exampleModalChair">
-			  <i class="fas fa-chair m-auto text-primary" data-bs-hover-animate="pulse" style="color: rgb(255,214,0);filter: contrast(101%) hue-rotate(0deg) invert(0%);"></i>
+			  <i class="fas fa-caret-square-up m-auto text-primary" data-bs-hover-animate="pulse" style="color: rgb(255,214,0);filter: contrast(101%) hue-rotate(0deg) invert(0%);"></i>
 			</button>
 		      </div>
-                        <h3>Stolica</h3>
+                        <h3>Tepih</h3>
                     </div>
                 </div>
                 <div class="col-lg-4" data-aos="fade-down" data-aos-duration="200" data-aos-delay="350" data-aos-once="true">
