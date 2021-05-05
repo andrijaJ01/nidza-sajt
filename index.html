@@ -19,48 +19,128 @@
 
 <body style="width: 100%;">
     <nav class="navbar navbar-light navbar-expand bg-light navigation-clean">
-        <div class="container"><a class="navbar-brand" href="#">DUBINSKO PRANJE</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"></button>
+      <div class="container">
+	<a class="navbar-brand" href="#">DUBINSKO PRANJE</a>
+	<button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"></button>
             <div class="collapse navbar-collapse" id="navcol-1"></div>
-        </div>
+      </div>
     </nav>
+<!-- Modal CAR-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Automobile</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Chair-->
+<div class="modal fade" id="exampleModalChair" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Stolice</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Couch-->
+<div class="modal fade" id="exampleModalCouch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cenovnik Za Garniture</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+      </div>
+    </div>
+  </div>
+</div>
     <header class="masthead text-white text-center" style="background: url('assets/img/bg-masthead.jpg')no-repeat center center;background-size: cover;width: 100%;height: 100vh;">
-        <div class="overlay" style="opacity: 0;"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 mx-auto" style="width: 1000px;">				<div class="caption v-middle text-center">
-					<h1 class="cd-headline clip">
-			            <span class="blc">Dubinsko Pranje </span>
-                        <br>
-			            <span class="cd-words-wrapper">
-			              <b class="is-visible">Automobila</b>
-			              <b>Tepiha</b>
-			              <b>Stolica</b>
-                          <b>Garnitura</b>
-			            </span>
-	          		</h1>
-				</div><a class="btn btn-primary btn-lg" role="button" href="#onama">Vise</a></div>
-            </div>
+      <div class="overlay" style="opacity: 0;"></div>
+      <div class="container">
+	<div class="row">
+          <div class="col-xl-9 mx-auto" style="width: 1000px;">
+	    <div class="caption v-middle text-center">
+	      <h1 class="cd-headline clip">
+		<span class="blc">Dubinsko Pranje </span>
+		<br>
+	        <span class="cd-words-wrapper">
+	          <b class="is-visible">Automobila</b>
+	          <b>Tepiha</b>
+	          <b>Stolica</b>
+		  <b>Garnitura</b>
+	        </span>
+	      </h1>
+
+	    </div>
+	    <a class="btn btn-primary btn-lg" role="button" href="#onama">Vise</a>
+	  </div>
+        </div>
         </div>
     </header>
+
     <section class="features-icons bg-light text-center" style="height: auto;">
-        <h1 id="onama">Sta mi radimo?<br>mi vrsimo usluzno  pranje:</h1>
+      <h1 id="onama">Sta mi radimo?<br>mi vrsimo usluzno  pranje:</h1>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4" data-aos="fade-down" data-aos-duration="200" data-aos-delay="50" data-aos-once="true">
-                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon" style="color: rgb(255,214,0);"><i class="icon ion-android-car m-auto text-primary" data-bs-hover-animate="pulse" style="color: rgb(255,214,0);"></i></div>
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3" >
+                      <div class="d-flex features-icons-icon" style="color: rgb(255,214,0);" style="justify-content:center">
+			<button type="button" class="btn btn-primary-outline" data-toggle="modal" data-target="#exampleModal">
+			  <i class="icon ion-android-car m-auto text-primary" data-bs-hover-animate="pulse" style="color: rgb(255,214,0);"></i>
+			</button>
+		      </div>
                         <h3>Automobila</h3>
                     </div>
                 </div>
                 <div class="col-lg-4" data-aos="fade-down" data-aos-duration="200" data-aos-delay="200" data-aos-once="true">
                     <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="fas fa-chair m-auto text-primary" data-bs-hover-animate="pulse" style="color: rgb(255,214,0);filter: contrast(101%) hue-rotate(0deg) invert(0%);"></i></div>
+                      <div class="d-flex features-icons-icon">
+			<button type="button" class="btn btn-primary-outline" data-toggle="modal" data-target="#exampleModalChair">
+			  <i class="fas fa-chair m-auto text-primary" data-bs-hover-animate="pulse" style="color: rgb(255,214,0);filter: contrast(101%) hue-rotate(0deg) invert(0%);"></i>
+			</button>
+		      </div>
                         <h3>Stolica</h3>
                     </div>
                 </div>
                 <div class="col-lg-4" data-aos="fade-down" data-aos-duration="200" data-aos-delay="350" data-aos-once="true">
                     <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
-                        <div class="d-flex features-icons-icon"><i class="fas fa-couch m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                      <div class="d-flex features-icons-icon">
+			
+			<button type="button" class="btn btn-primary-outline" data-toggle="modal" data-target="#exampleModalCouch">
+			  <i class="fas fa-couch m-auto text-primary" data-bs-hover-animate="pulse"></i>
+			  </button>
+		      </div>
                         <h3>Garnitura</h3>
                     </div>
                 </div>
@@ -70,21 +150,29 @@
     <section class="showcase">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(&quot;assets/img/bg-showcase-1.jpg&quot;);"><span></span></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(&quot;assets/img/shcs1.jpg&quot;);"><span></span></div>
                 <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-                    <h2>O nama</h2>
-                    <p class="lead mb-0">Text o nama pt1. Slike su random dok ne finaliziram dizajn. :D</p>
+                    <h2>Placanje</h2>
+                    <p class="lead mb-0">
+		      Placanje moze se vrsiti na vise nacina, ili gotovinom ili na uplatom na ziro racun i to u sledecim valtama
+		      <ul class="list-group list-group-flush">
+			<li class="list-group-item">Eurima</li>
+			<li class="list-group-item">Dolarima</li>
+			<li class="list-group-item">Dinarima</li>
+			<li class="list-group-item">Francima</li>
+		      </ul>
+		    </p>
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-lg-6 text-white showcase-img" style="background-image: url(&quot;assets/img/bg-showcase-2.jpg&quot;);"><span></span></div>
+                <div class="col-lg-6 text-white showcase-img" style="background-image: url(&quot;assets/img/shcs2.jpg&quot;);"><span></span></div>
                 <div class="col-lg-6 my-auto order-lg-1 showcase-text">
                     <h2>jos nesto o nama</h2>
                     <p class="lead mb-0">tekst o nama pt2</p>
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(&quot;assets/img/bg-showcase-3.jpg&quot;);"><span></span></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(&quot;assets/img/shcs3.jpg&quot;);"><span></span></div>
                 <div class="col-lg-6 my-auto order-lg-1 showcase-text">
                     <h2>Opet o nama</h2>
                     <p class="lead mb-0">text o nama pt 3</p>
@@ -122,9 +210,10 @@
                 </div>
                 <div class="col-lg-6 my-auto h-100 text-center text-lg-right">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:user@mail.com"><i class="fa fa-envelope fa-2x fa-fw"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa fa-twitter fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/dubinskopranje._.automobila/
+"><i class="fa fa-instagram fa-2x fa-fw"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -133,6 +222,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/modal.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
 </body>
